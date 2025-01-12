@@ -1,4 +1,4 @@
-##Import packages (If you see this, bikeshare code updated)
+##Import packages (If you see this, bikeshare code updated). If you see this update, it means it updated again.
 import time
 import pandas as pd
 import numpy as np
