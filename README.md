@@ -28,4 +28,16 @@ This project uses Python to explore bikeshare data in three U.S. cities - Chicag
 		* Earliest
 		* Most Recent 
 		* Most Popular 
+		
+### Project Files 
+* bikeshare_final.py - Python script to analyze bikeshare data
+* chicago.csv - bikeshare data for Chicago
+* new_york_city.csv  - bikeshare data for New York City
+* washington.csv - bikeshare data for Washington
+
+### Credits
+All materials for this project were provided by Udacity.
+
+
+
 	
