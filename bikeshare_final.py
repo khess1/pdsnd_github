@@ -31,17 +31,17 @@ def get_filters():
 	
     print("\nHello! Let\'s explore some US bikeshare data!\n")
 	
-    #Get user input for city - either 'new york city', 'washington', or 'chicago' 
+    #Get user input for city - either 'new york city', 'washington', or 'chicago'  
     while True: 
-        city = input("\nWhich city would you like to see data for? Please enter either 'new york city', 'washington', or 'chicago'.\n").lower()
+        city = input("\nWhich city would you like to see data for? Please enter either 'new york city', 'washington', or 'chicago'.\n").lower() #INPUT MUST BE IN LOWERCASE LETTERS
         if city in cities:
             break
         else:
             print("\nInvalid input. Please enter a valid city - either new york city, washington, or chicago.")
 
-    #Get user input for month - either 'january', 'february', 'march', 'april', 'may', 'june', or 'all' if they do not wish to filter by a specific month
+    #Get user input for month - either 'january', 'february', 'march', 'april', 'may', 'june', or 'all' if they do not wish to filter by a specific month 
     while True:
-        month = input("\nWould you like to see data for a particular month? If so, please enter either 'january', 'february', 'march', 'april', 'may', or 'june'. If you do not wish to see data for a particular month, please enter 'all'.\n").lower()          
+        month = input("\nWould you like to see data for a particular month? If so, please enter either 'january', 'february', 'march', 'april', 'may', or 'june'. If you do not wish to see data for a particular month, please enter 'all'.\n").lower() #INPUT MUST BE IN LOWERCASE LETTERS          
         if month in months:
             break
         else:
@@ -49,7 +49,7 @@ def get_filters():
             
     #Get user input for day - either 'sunday', 'monday, 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', or 'all' if they do not wish to filter by a specific day   
     while True:
-        day = input("\nWould you like to see data for a particular day? If so, please enter either 'sunday', 'monday', 'tuesday', 'wednesday, 'thursday', 'friday', 'saturday', or 'sunday'. If you do not wish to see data for a particular day, please enter 'all'.\n").lower()    
+        day = input("\nWould you like to see data for a particular day? If so, please enter either 'sunday', 'monday', 'tuesday', 'wednesday, 'thursday', 'friday', 'saturday', or 'sunday'. If you do not wish to see data for a particular day, please enter 'all'.\n").lower() #INPUT MUST BE IN LOWERCASE LETTERS
         if day in days:
             break
         else:
