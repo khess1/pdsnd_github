@@ -299,7 +299,7 @@ def user_stats(df):
     """Displays statistics on users."""
     
     #Get user input for seeing data on users: 
-        #If 'yes', the loop will print data on user types, gender (if available), and birth years (if available). 
+        #If 'yes', the loop will print data on user types, gender (if available), and birth years (if available). #NEITHER GENDER NOR BIRTH YEAR ARE AVAILABLE FOR WASHINGTON 
         #If 'no', the loop will break and move on to the next question.
     while True:
         answer = input("\nWould you like to see data on users? Please enter either 'yes' or 'no'.\n").lower()
