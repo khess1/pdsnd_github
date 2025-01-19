@@ -39,7 +39,7 @@ def get_filters():
         else:
             print("\nInvalid input. Please enter a valid city - either new york city, washington, or chicago.")
 
-    #Get user input for month - either 'january', 'february', 'march', 'april', 'may', 'june', or 'all' if they do not wish to filter by a specific month 
+    #Get user input for month - either 'january', 'february', 'march', 'april', 'may', 'june', or 'all' if they do not wish to filter by a specific month #'all' INCORPORATES DATA FROM ALL MONTHS LISTED
     while True:
         month = input("\nWould you like to see data for a particular month? If so, please enter either 'january', 'february', 'march', 'april', 'may', or 'june'. If you do not wish to see data for a particular month, please enter 'all'.\n").lower() #INPUT MUST BE IN LOWERCASE LETTERS          
         if month in months:
@@ -47,7 +47,7 @@ def get_filters():
         else:
             print("\nInvalid input. If you would like to see data for a particular month, please enter a valid month - either 'january', 'february', 'march', 'april', 'may', or 'june'. If you do not wish to see data for a particular month, please enter 'all'.\n")
             
-    #Get user input for day - either 'sunday', 'monday, 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', or 'all' if they do not wish to filter by a specific day   
+    #Get user input for day - either 'sunday', 'monday, 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', or 'all' if they do not wish to filter by a specific day #’all’ INCORPORATES DATA FROM ALL DAYS LISTED
     while True:
         day = input("\nWould you like to see data for a particular day? If so, please enter either 'sunday', 'monday', 'tuesday', 'wednesday, 'thursday', 'friday', 'saturday', or 'sunday'. If you do not wish to see data for a particular day, please enter 'all'.\n").lower() #INPUT MUST BE IN LOWERCASE LETTERS
         if day in days:
